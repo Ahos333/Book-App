@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chapter 6: End</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-button color="primary" expand="full" [routerDirection]="'root'" [routerLink]="['/toc']">Table of Contents</ion-button>
+
+<ion-content>
+  <ion-card>
+    <h3 ion-text color="light" class="page-number">6</h3>
+    <ion-card-content>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie blandit efficitur. Suspendisse vestibulum laoreet tortor, vitae condimentum nulla. Suspendisse venenatis mi sem, sed facilisis metus scelerisque sed. Morbi placerat, orci at sagittis tempus, nisl diam facilisis tortor, vitae rhoncus nulla sem at tellus. Donec a maximus lorem. Sed rhoncus nisi quis massa consequat, et pretium nibh commodo. Sed suscipit mi est, vel eleifend libero tincidunt vel. Nam eu nulla at risus euismod volutpat. 
+        Mauris fringilla cursus placerat.
+      </p>
+      <p>
+        Ut quis nisl neque. In gravida ex mauris. Phasellus ac felis et turpis varius laoreet. Donec pretium aliquet vestibulum. 
+      </p>
+    
+      <img src="https://picsum.photos/300">
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button color="primary" [routerDirection]="'root'" [routerLink]="['/chapter5']">Previous Page
+      <ion-icon name="arrow-back"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button color="primary" [routerDirection]="'root'" [routerLink]="['/toc']">Table of Contents
+      <ion-icon name="menu"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button color="primary" [routerDirection]="'root'" [routerLink]="['/backcover']">To Back Cover
+      <ion-icon name="arrow-forward"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+ 

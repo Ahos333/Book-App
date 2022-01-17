@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chapter 1: Beginning</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <h3 ion-text color="light" class="page-number">1</h3>
+    <ion-card-content>
+      <p>
+        Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. 
+        Integer ultricies quis elit vel congue. 
+        Aliquam sit amet semper lectus, vel blandit odio. 
+        Integer lobortis cursus finibus. Phasellus fermentum, libero eu ultrices pellentesque, erat turpis iaculis tortor, ac venenatis augue ligula vel lectus. Aliquam erat volutpat. Vestibulum viverra egestas ante, et rutrum lorem venenatis quis. Nulla suscipit vel dui eget sagittis. Pellentesque ut risus sit amet arcu consequat posuere. Nulla cursus diam nunc, 
+        a eleifend ante pellentesque ut.
+      </p>
+      
+      <img src="https://picsum.photos/250">
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button color="primary" (click)="curlPage()" [routerDirection]="'root'" [routerLink]="['/toc']">Previous Page
+      <ion-icon name="arrow-back"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button color="primary" [routerDirection]="'root'" [routerLink]="['/toc']">Table of Contents
+      <ion-icon name="menu"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button color="primary" [routerDirection]="'root'" [routerLink]="['/chapter2']">Next Page
+      <ion-icon name="arrow-forward"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+ 

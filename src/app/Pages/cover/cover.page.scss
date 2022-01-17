@@ -1,0 +1,26 @@
+ion-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-card {
+    height: 90vh;
+    margin: auto;
+}
+
+ion-card-content {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+
+    img {
+        align-self: center;
+    }
+
+    ion-button {
+        margin-top: 2rem;
+    }
+}
